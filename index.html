@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .main-container {
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(212, 45%, 89%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-family: "Outfit", sans-serif;
+      }
+
+      .main-container .main-content {
+        width: 275px;
+        height: 420px;
+        background-color: hsl(0, 0%, 100%);
+
+        box-shadow: 6px 6px 15px 2px hsl(220, 15%, 55%);
+
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-container .main-content img {
+        width: 245px;
+        height: 245px;
+
+        border-radius: 10px;
+
+        margin-top: -7px;
+      }
+
+      .main-container .main-content .content {
+        margin: 0 15px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 1rem;
+      }
+
+      .main-container .main-content .content h2 {
+        font-weight: 700;
+
+        font-size: 18px;
+
+        text-align: center;
+
+        margin: 1rem 15px 0;
+
+        color: hsl(218, 44%, 22%);
+      }
+
+      .main-container .main-content .content p {
+        font-weight: 400;
+
+        font-size: 14px;
+
+        text-align: center;
+
+        margin: 0 5px;
+
+        color: hsl(220, 15%, 55%);
+      }
+
+      .attribution {
+        margin-top: 1rem;
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      .attribution a:hover {
+        color: #2c7dfa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-content">
+        <img src="./images/image-qr-code.png" />
+        <div class="content">
+          <h2>Improve your front-end skills by building projects</h2>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://georgelucasdev.vercel.app/">George Lucas</a>.
+      </div>
+    </div>
+  </body>
+</html>
